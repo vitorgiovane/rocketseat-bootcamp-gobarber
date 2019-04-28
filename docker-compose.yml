@@ -1,0 +1,19 @@
+# v3 syntax
+version: "3"
+
+# Services
+services:
+  # Postgres (10.3)
+  postgres:
+    build:
+      context: ./docker/postgres
+    container_name: "gobarber-postgres"
+    restart: "always"
+    volumes:
+      - ./docker/postgres/data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    environment:
+      - POSTGRES_DB=gobarber
+      - POSTGRES_USER=vitor
+      - POSTGRES_PASSWORD=123456
