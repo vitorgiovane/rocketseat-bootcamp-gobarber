@@ -18,6 +18,7 @@ class App {
     this.express.use(express.urlencoded({ extended: false }))
     this.express.use(
       session({
+        name: 'root',
         store: new LokiStore({
           path: path.resolve(__dirname, '..', 'tmp', 'sessions.db')
         }),
