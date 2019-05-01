@@ -83,6 +83,7 @@ body {
 .auth-wrapper form label[for="avatar"] img.preview {
   width: 100%;
   min-height: 100%;
+  height: auto;
 }
 
 .auth-wrapper form label[for="provider"] {
