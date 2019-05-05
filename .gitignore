@@ -65,3 +65,6 @@ typings/
 
 # Sessions
 tmp/sessions.db
+
+# Docker Postgres Data
+docker/postgres/data
