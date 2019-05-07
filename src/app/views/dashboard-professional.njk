@@ -2,10 +2,10 @@
 
 {% block body %}
   <div class="content">
-    <strong>Hello, {{ user.name }}</strong>
+      <strong>Other hairdressers</strong>
     <p>Starts a schedule by choosing one of the professionals below:</p>
     <ul class="providers">
-      {% for provider in providers %}
+        {% for provider in otherProviders %}
         <li class="provider">
           <div>
             <img src="/files/{{ provider.avatar }}" alt="">
