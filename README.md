@@ -2,6 +2,11 @@
 ## App GoBarber
 Application for scheduling control of services provided by hairdressers. This project was developed during Module 2 of the Rocketseat Bootcamp.
 
+## Challenge 02
+Challenge 02 requested the creation of a section for the service provider to track the day's schedules scheduled with him. See an image of the result of this challenge on the screen entitled Tracking the day's schedules (Hairdresser's Dashboard). [See the Challenge 02 specification document here](https://station.rocketseat.com.br/api/files/1542819990791.pdf).
+
+## Screenshots of App GoBarber
+
 ### Login
 ![Login](https://user-images.githubusercontent.com/5404361/57200903-a316b600-6f67-11e9-8adc-0322e6ea525b.png)
 
@@ -16,3 +21,6 @@ Application for scheduling control of services provided by hairdressers. This pr
 
 ### Choosing an available schedule
 ![Choosing an available schedule](https://user-images.githubusercontent.com/5404361/57200986-e4f42c00-6f68-11e9-923d-1146a5f10d6b.png)
+
+### Tracking the day's schedules (Hairdresser's Dashboard)
+![Tracking the day's schedules](https://user-images.githubusercontent.com/5404361/57577354-3b6ed800-744b-11e9-9762-66123f8b49de.png)
