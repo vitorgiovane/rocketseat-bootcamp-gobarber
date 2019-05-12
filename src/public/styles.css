@@ -131,6 +131,10 @@ body {
   color: #666;
 }
 
+.clients {
+  margin-bottom: 20px;
+}
+
 .main-wrapper .content {
   display: flex;
   flex-direction: column;
@@ -291,4 +295,79 @@ ul.providers {
 
 .main-wrapper .content form button:hover {
   background: #634dac;
+}
+
+/* Clients */
+
+.clients {
+  display: flex;
+  flex-direction: column;
+}
+
+.clients-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+}
+
+.client {
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.client-info {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+
+.client img {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.client-name {
+  color: #444;
+  font-weight: bold;
+}
+
+.client-email {
+  color: #444;
+}
+
+.client a {
+  background: #7159c1;
+  padding: 5px 10px;
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+.appointment-datetime {
+  display: flex;
+  padding-top: 7px;
+  color: #7159c1;
+}
+
+.appointment-date,
+.appointment-time {
+  display: flex;
+  align-items: center;
+}
+
+.appointment-calendar,
+.appointment-clock {
+  margin-right: 4px;
+}
+
+.appointment-clock {
+  margin-left: 10px;
 }
