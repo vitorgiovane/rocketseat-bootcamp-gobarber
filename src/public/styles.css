@@ -31,11 +31,11 @@ body {
 }
 
 .main-wrapper {
-  height: 100%;
+  height: auto;
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  padding-top: 60px;
+  padding: 60px 0 100px 0;
 }
 
 .auth-wrapper form {
